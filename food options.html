@@ -13,10 +13,16 @@
 
 <body>
 	<div class="container">
-		<h1>Are you eating healthy?</h1>
+		<div class="row">
+			<div class="col-md-5">
+				<h1 class="title">Are you eating healthy?</h1>
+			</div>
+			<div class="col-md-3"></div>
+			<div class="col-md-4"></div>
+		</div>
 		<!-- Button trigger modal -->
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- 				 The Health Quiz
+ 				 Take The Health Quiz
 				</button>
 
 		<!-- Modal -->
@@ -24,21 +30,63 @@
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+						<h5 class="modal-title" id="exampleModalLabel">Health Advice</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					          <span aria-hidden="true">&times;</span>
         						</button>
 					</div>
 					<div class="modal-body">
-						...
+						<div class="row">
+							<div class="col-md-3"></div>
+							<div class="col-md-6">
+								<p>During this self-assessment please be honest with yourself! Only you can change your lifestyle.</p>
+								<p>When do you eat the most?</p>
+								<select id="q1">
+									<option value="">Pick a Category</option>
+ 									<option value="breakfast">Breakfast</option>
+  									<option value="lunch">Lunch</option>
+ 								 	<option value="dinner">Dinner</option>
+ 									<option value="snacks">snacks</option>
+							  </select>
+								<p>What type of food do you mostly eat?</p>
+								<select id="q2">
+									<option value="">Pick a Category</option>
+ 									<option value="meat">Meat & Poultry</option>
+  									<option value="vegetable">Vegetables</option>
+ 								    <option value="dairy">Dairy Products</option>
+  									<option value="fruit">Fruits</option>
+  									<option value="grain">Grain Foods</option>
+							  </select>
+								<p>How many calories do you eat per day?</p>
+								<input type="number" id="calories" placeholder="####">
+								<p>Which meal would you change if you where on a diet?</p>
+								<select id="q4">
+									<option value="">Pick a Category</option>
+ 									<option value="breakfast">Breakfast</option>
+  									<option value="lunch">Lunch</option>
+ 								    <option value="dinner">Dinner</option>
+ 								    <option value="snacks">snacks</option>
+							  	</select>
+								<p>What type of food would you like to eat more?</p>
+								<select id="q5">
+									<option value="">Pick a Category</option>
+ 									<option value="meat">Meat & Poultry</option>
+  									<option value="vegetable">Vegetables</option>
+ 									<option value="dairy">Dairy Products</option>
+  									<option value="fruit">Fruits</option>
+  									<option value="grain">Grain Foods</option>
+							 	 </select>
+							</div>
+							<div class="col-md-3"></div>
+						</div>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary">Save changes</button>
+						<button type="button" id="submit" class="btn btn-primary" data-dismiss="modal">Save</button>
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="start"></div>
 	</div>
 </body>
 
