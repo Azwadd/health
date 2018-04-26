@@ -1,7 +1,9 @@
 body {
     background-image: url("bkg.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .title {
     height: 41px;
     width: 385px;
@@ -13,30 +15,50 @@ body {
     border-bottom-left-radius: 10px;
     margin-top: 30px;
 }
+
+.search {
+    background-color: #0F99D5;
+    margin-top: 37px;
+    color: white;
+}
+
 .btn-primary {
     margin-top: 15px;
 }
+
 #a1, #a3, #a5 {
     background-color: #424242;
 }
+
 #a2, #a4 {
     background-color: #0F99D5;
 }
+
 .i {
     padding-top: 10px;
     height: 176px;
     max-width: 170px;
 }
+
 .i1 {
     padding-top: 10px;
     height: 176px;
     max-width: 250px;
 }
+
 .p {
     padding-top: 10px;
     font-size: 17px;
 }
+
 #test{
     padding-top: 45px;
     color:white;
+}
+.bkg {
+    background-color: white;
+}
+.navbar {
+    margin-bottom: 0px;
+}
 }

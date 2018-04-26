@@ -1,0 +1,47 @@
+.space {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.instructions {
+    color: white;
+    padding-top: 17px;
+    padding-left: 20%;
+}
+.value {
+    width: 100px;
+}
+.color {
+    background-color: gray !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+body {
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.image {
+    min-width: 100%;
+    max-height: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.images {
+    min-width: 100%;
+    max-height: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.text {
+    color: white;
+    padding-left: 25%;
+}
