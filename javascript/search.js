@@ -8,15 +8,15 @@ function firstResults(response) {
     
 function secondResults(response) {     
     for (var i = 1; i < 100; i = i + 3) {
-        $("#second").append("<input class='image' type='image' src=" + response.results[i].thumbnail + ">" +
-        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        $("#second").append("<div id="+i+"> <input class='image' type='image' src=" + response.results[i].thumbnail + ">" +
+        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
     }
 }
 
 function thirdResults(response) {
     for (var i = 2; i < 100; i = i + 3) {
-        $("#third").append("<input class='images' type='image' src=" + response.results[i].thumbnail + ">" +
-        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        $("#third").append("<div id="+i+"> <input class='images' type='image' src=" + response.results[i].thumbnail + ">" +
+        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
     }
 }
 
