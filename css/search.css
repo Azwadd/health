@@ -16,6 +16,7 @@
 }
 .navbar {
     margin-bottom: 0px;
+    
 }
 body {
     background-image: url("bkg.jpg");
@@ -44,4 +45,7 @@ row {
 .text {
     color: white;
     padding-left: 25%;
+}
+.right {
+    padding-left: 32%;
 }

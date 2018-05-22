@@ -1,0 +1,52 @@
+body {
+    background-image: url("bkg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.right {
+    padding-left: 34%;
+}
+
+.bkg {
+    background-color: white;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.space {
+    padding-top: 15%;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.size {
+    padding-left: 50px;
+    max-height: 233px;
+    max-width: 281px;
+}
+
+.sizes {
+    max-height: 233px;
+    max-width: 281px;
+    padding-bottom: 15%;
+}
+
+.text {
+    padding-top: 4%;
+    font-style: italic;
+    font-size: 20px;
+}
+.bkg {
+    padding-left: 100px;
+}

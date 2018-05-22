@@ -55,10 +55,12 @@ body {
     padding-top: 45px;
     color:white;
 }
-.bkg {
-    background-color: white;
-}
 .navbar {
     margin-bottom: 0px;
 }
-}
+.right {
+    padding-left: 32%;
+}    
+.btn {
+    margin-left: 42%;
+}    
