@@ -2,21 +2,21 @@ function firstResults(response) {
     for (var i = 0; i < 39; i = i + 3) {
         console.log(response.results[i].thumbnail); 
         $("#first").append("<input id="+i+" class='image' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
-        "<p class="+i+">Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
+        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
     }
 }  
     
 function secondResults(response) {     
     for (var i = 1; i < 39; i = i + 3) {
         $("#second").append("<input id="+i+" class='images' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
-        "<p class="+i+">Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        "<p class='texts'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
     }
 }
 
 function thirdResults(response) {
     for (var i = 2; i < 39; i = i + 3) {
         $("#third").append("<input id="+i+" class='images' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
-        "<p class="+i+">Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        "<p class='texts'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
     }
 }
 
