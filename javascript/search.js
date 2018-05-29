@@ -63,7 +63,7 @@ var calories = 0;
 function addCalories(itemCalories) {
     console.log(calories, itemCalories);
         calories = calories + itemCalories;
-        $("#textcalories").text(calories + "total calories");
+        $("#textcalories").text(calories + " total calories");
 }
 
 $(document).ready(function() {
