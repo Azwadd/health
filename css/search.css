@@ -28,24 +28,19 @@ row {
     margin-right: 0px;
     padding-right: 0px;
 }
-.image {
-    min-width: 100%;
-    max-height: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-}
-.images {
-    min-width: 100%;
-    max-height: 30%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
-}
-.text {
+#text {
     color: white;
     padding-left: 25%;
+    padding-top: 10px;
+}
+#texts { 
+    color: white;
+    padding-top: 10px;
 }
 .right {
     padding-left: 32%;
+}
+.image {
+    padding-left: 25%;
+    padding-top: 25px;
 }
