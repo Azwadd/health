@@ -20,31 +20,41 @@
 }
 body {
     background-image: url("bkg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 row {
     margin-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
 }
-#text {
+.text {
     color: white;
-    padding-left: 25%;
-    padding-top: 10px;
+    padding-left: 30px !important;
 }
-#texts { 
+.texts { 
     color: white;
-    padding-top: 10px;
+    padding-right: 20px;
 }
 .right {
     padding-left: 32%;
 }
 .image {
-    padding-left: 25%;
-    padding-top: 25px;
+    padding-left: 70px !important;
+}
+.images {
+    min-height: 100px;
+    padding-left: 17%;
 }
 #textcalories {
     padding-left: 10%;
 }
+#second {
+    padding-left: 6%px !important;
+}
+#first {
+    padding-left: 6.5% !important;
+}
+h2 {
+    color: white;
+    
 }

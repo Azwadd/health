@@ -1,22 +1,25 @@
 function firstResults(response) {
-    for (var i = 0; i < 39; i = i + 3) {
+    for (var i = 0; i < 30; i = i + 3) {
         console.log(response.results[i].thumbnail); 
-        $("#first").append("<input id="+i+" class='image' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
+        $("#first").append("<input id="+i+" class='image' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" + 
+        "<p class='text'>" + response.results[i].brand_name + "</p>" + "<p class='text'>" + response.results[i].item_name + "</p>" +
         "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
     }
 }  
     
 function secondResults(response) {     
-    for (var i = 1; i < 39; i = i + 3) {
+    for (var i = 1; i < 30; i = i + 3) {
         $("#second").append("<input id="+i+" class='images' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
-        "<p class='texts'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        "<p class='text'>" + response.results[i].brand_name + "</p>" + "<p class='text'>" + response.results[i].item_name + "</p>" +
+        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");        
     }
 }
 
 function thirdResults(response) {
-    for (var i = 2; i < 39; i = i + 3) {
+    for (var i = 2; i < 30; i = i + 3) {
         $("#third").append("<input id="+i+" class='images' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">" +
-        "<p class='texts'>Has a total of " + response.results[i].nutrient_value + " Calories<p>");
+        "<p class='text'>" + response.results[i].brand_name + "</p>" + "<p class='text'>" + response.results[i].item_name + "</p>" +
+        "<p class='text'>Has a total of " + response.results[i].nutrient_value + " Calories<p> </div>");
     }
 }
 
@@ -75,5 +78,4 @@ $(document).ready(function() {
         clearCalories();
         addCalories($(event.target).data('calories'));
     });
-
 });

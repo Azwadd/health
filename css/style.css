@@ -1,7 +1,6 @@
 body {
     background-image: url("bkg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .title {
@@ -26,29 +25,28 @@ body {
     margin-top: 15px;
 }
 
-#a1, #a3, #a5 {
+#a1, #a3, #a4 {
     background-color: #424242;
 }
 
-#a2, #a4 {
-    background-color: #0F99D5;
+#a2, #a5, #a6  {
+    background-color: #32CD32;
 }
 
-.i {
+#start {
     padding-top: 10px;
-    height: 176px;
-    max-width: 170px;
 }
 
-.i1 {
+.top {
+    width: 100%;
+    height: 250px;
     padding-top: 10px;
-    height: 176px;
-    max-width: 250px;
 }
 
 .p {
     padding-top: 10px;
     font-size: 17px;
+    color: white;
 }
 
 #test{
@@ -64,3 +62,7 @@ body {
 .btn {
     margin-left: 42%;
 }    
+#textcalories {
+    color: white;
+    background-color: #32CD32;
+}
