@@ -166,8 +166,8 @@ function addCalories(itemCalories) {
 }
 
 function reset() {
-    $("#start").text( );
-    $("#myRow").text( );
+    $("#start").empty( );
+    $("#myRow").empty( );
 }
 
 $(document).ready(function() {

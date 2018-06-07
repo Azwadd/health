@@ -27,6 +27,7 @@ body {
 
 #a1, #a3, #a4 {
     background-color: #424242;
+    color: white;
 }
 
 #a2, #a5, #a6  {
@@ -45,8 +46,7 @@ body {
 
 .p {
     padding-top: 10px;
-    font-size: 17px;
-    color: white;
+    color:white;
 }
 
 #test{
