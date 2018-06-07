@@ -40,9 +40,11 @@ row {
 }
 .image {
     padding-left: 70px !important;
+    max-width: 240px;
 }
 .images {
     min-height: 100px;
+    max-width: 240px;
     padding-left: 17%;
 }
 #textcalories {
