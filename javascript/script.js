@@ -44,7 +44,7 @@ function answer3(response) {
         $("#a6").append("<input id="+i+" class='top image' type='image' data-calories="+response.results[i].nutrient_value+" src=" + response.results[i].thumbnail + ">");
         $("#a6").append("<p class='p'>" + response.results[i].brand_name + "</p>");
         $("#a6").append("<p class='p'>" + response.results[i].item_name + "</p>");
-        $("#a6").append("<p class='p'>" + response.results[i].nutrient_value + "calories</p>");
+        $("#a6").append("<p class='p'>" + response.results[i].nutrient_value + " calories</p>");
     }
 }
 
